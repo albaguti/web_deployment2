@@ -6,6 +6,8 @@ import pandas as pd
 
 st.write('Welcome to my app')
 
+st.write('Now i am editing my app')
+
 df = pd.DataFrame({
     'first column': list(range(1, 11)),
     'second column': np.arange(10, 101, 10)
